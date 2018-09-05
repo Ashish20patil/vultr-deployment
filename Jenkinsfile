@@ -1,3 +1,7 @@
 node {
-    echo 'Hello World'
+   stage('Clean up Workspace') {
+    deleteDir()
+   }
+   stage('Set environment file') {       
+   }
 }
